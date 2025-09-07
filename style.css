@@ -15,7 +15,7 @@ body {
     align-items: center;
     margin: 0 1rem;
 }
-.main {
+main {
     display: flex;
     flex-direction: column;
     flex: 1;
@@ -39,7 +39,7 @@ body {
     padding: 0 16px 0 16px;
     text-align: center;
 }
-.text-data h2{
+.text-data h1{
     font-size: 22px;
     font-weight: 700;
     color: hsl(218, 44%, 22%);
@@ -59,9 +59,5 @@ footer {
     padding: 1rem;
 }
 footer a { 
-    text-decoration: none;
     color: hsl(228, 45%, 44%); 
-}
-footer a:hover {
-    text-decoration: underline;
 }
