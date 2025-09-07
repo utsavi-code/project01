@@ -15,7 +15,6 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 This is a QR Code Card Component built using HTML and CSS as part of a Frontend Mentor challenge. The project displays a card centered on the page containing:
@@ -31,81 +30,78 @@ The layout is mobile-first, with a max-width card that adapts well to all screen
 
 ![](./qr-code-component-main/images/Qr-card.png)
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
-
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://github.com/utsavi-code/project01)
+- Live Site URL: (https://utsavi-code.github.io/project01/)
 
 ## My process
 
+### 1. Planning
+- Started by reviewing the challenge design on Figma.
+- Identified the main structure: a centered card with an image, heading, description, and footer attribution.
+
+### 2. Building the HTML
+- Wrote semantic HTML with a `<main>` container for the card.
+- Used `<h1>` for the main heading and `<p>` for description text.
+- Added descriptive `alt` text to the QR image for accessibility.
+
+### 3. Styling with CSS
+- Applied a **mobile-first approach** by setting base styles for small screens.
+- Used **flexbox** on the `body` to center the card vertically and horizontally.
+- Styled the card with `max-width`, padding, and `border-radius` for rounded corners.
+- Added a **box-shadow** to make the card stand out against the light background.
+
+### 4. Footer
+- Positioned the footer 10px above the bottom using `position: fixed`.
+- Styled it with smaller, muted text and hover effects on links.
+
+### 5. Responsiveness
+- Verified that the layout scales well on mobile and desktop.
+- Considered adding media queries for larger screens if needed.
+
 ### Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+- [HTML5](https://developer.mozilla.org/en-US/docs/Web/HTML) – For page structure
+- [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS) – For styling and layout
+- [Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox) – For centering and alignment
+- [Google Fonts](https://fonts.google.com/) – For typography (Outfit)
+- [GitHub Pages](https://pages.github.com/) – For deployment
+- Mobile-first responsive design
 
 ### What I learned
+Through building this project, I practiced and reinforced several frontend skills:
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+- **Semantic HTML** → using meaningful elements like `<h1>` for headings and descriptive `alt` attributes for images to improve accessibility.
+- **Flexbox layout** → centering a component both vertically and horizontally within the viewport.
+- **Mobile-first design** → starting with styles that work well on small screens and planning for responsive scaling.
+- **Card styling** → applying `border-radius` and `box-shadow` to create a modern, clean component.
+- **GitHub Pages deployment** → publishing a live version of the project directly from my repo.
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+In future iterations of this project, I plan to:
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+- **Add full responsiveness with media queries**
+- **Refine typography and spacing** for larger screens to improve readability.  
+- **Enhance accessibility** further, such as using ARIA roles or landmarks.  
+- **Experiment with CSS Grid** to explore alternative layout methods.  
+- **Implement hover/focus animations** on the card and links for a more interactive experience. 
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Git Fundamentals](https://www.epicweb.dev/tutorials/git-fundamentals/commands/intro-to-git-fundamentals) - This helped me for getting started with git
+- [Figma tutorial](https://designlab.com/figma-101-course/introduction-to-figma) - This is an amazing article which helped me getting familiar with Figma interface.
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - Utsavi
+- Frontend Mentor - [@utsavi-code](https://www.frontendmentor.io/profile/utsavi-code)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+- Thanks to [Frontend Mentor](https://www.frontendmentor.io?ref=challenge) for providing this challenge and design.  
+- Inspired by the amazing frontend community that encourages learning by building real projects.  
 
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
